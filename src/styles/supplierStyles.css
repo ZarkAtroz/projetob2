@@ -1,0 +1,96 @@
+/* supplierStyles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Supplier List */
+  .suppliers {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .suppliers li {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .supplier-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .supplier-buttons button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .supplier-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .supplier-buttons .delete {
+    background-color: #dc3545;
+  }
+  
+  .supplier-buttons .delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* Form Section */
+  .form-section {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section h3 {
+    margin-top: 0;
+  }
+  
+  .form-section input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .form-section button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-section button:hover {
+    background-color: #218838;
+  }
+  

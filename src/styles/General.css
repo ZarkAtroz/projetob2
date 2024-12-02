@@ -1,0 +1,32 @@
+/* Estilo para a barra de navegação */
+.navbar {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+ 
